@@ -29,9 +29,3 @@ python analyze.py
 * MRU is an *extra* candidate/baseline (useful for loops larger than memory).
 * LFU counts references while a page is resident (counts reset on eviction); ties broken by LRU.
 * Clock = second-chance with a sweeping hand; reference bit set on load and on hit.
-
-## Things you must do yourselves (case-study rules)
-1. Re-run everything on your own machine and use *your* numbers/plots in the report.
-2. Hand-trace Clock and LFU on one small string for the report (validation covers FIFO/LRU/OPT with published values).
-3. Put this folder on GitHub/Drive and paste the link in the report.
-4. Write the report text in your own words and record each member's contribution.
